@@ -20,3 +20,4 @@ module "minikube" {
     "https://raw.githubusercontent.com/scholzj/terraform-aws-minikube/master/addons/external-dns.yaml"
   ]
 }
+# welcome
