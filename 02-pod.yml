@@ -2,14 +2,14 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod
-  Namespace: robo-vijay
+  namespace: robo-vijay
 spec:
   containers:
     - name: nginx
       image: nginx:latest
-      port:
-      - containerPort:80
+      ports:
+      - containerPort: 80
     - name: jenkins
       image: jenkins/jenkins
-      port:
-      - containerPort:8080
+      ports:
+      - containerPort: 8080
